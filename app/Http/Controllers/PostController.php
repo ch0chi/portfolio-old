@@ -8,7 +8,7 @@ use App\Http\Requests;
 use Carbon\Carbon;
 use App\Blog;
 use App\UserPost as UserPost;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use File;
 use App\User as User;
 use App\Libraries\Upload;
