@@ -5705,3 +5705,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+#welcomeInner img {
+  width: 100%;
+  max-width: 175px;
+  height: auto;
+  border-radius: 50%; }

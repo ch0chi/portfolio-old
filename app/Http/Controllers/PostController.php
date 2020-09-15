@@ -137,6 +137,12 @@ class PostController extends Controller
                 \DB::table('blogs')->where('blog_key',$id)->delete();
                 \DB::table('user_posts')->where('user_id',$blog->author_id)
                     ->where('post_id',$blog->id)->delete();
+
+                if(!empty($blog->post_image)){
+                    unlink(public_path('uploads/'.$blog->post_image));
+                    unlink(public_path('uploads/banner_'.$blog->post_image));
+                }
+
                 \Session::flash('alert-success', 'Post Deleted!');
                 return redirect('/blog');
             }
