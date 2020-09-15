@@ -7,7 +7,7 @@
             <div id="welcomeInner" class="col-md-10 col-md-offset-1 col-xs-12 cardLg">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img src="Images/me.png" class="img-responsive center-block">
+                        <img src="{{asset('storage/mquattrochi.jpg')}}" class="img-responsive center-block">
                         <h1 id="welcomeHeader">Hello, I'm <span class="red">Michael</span>.</h1>
                         <h3>Full Stack Developer | Denver, CO.</h3>
                     </div>
@@ -25,9 +25,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>About</h2>
-                        <p>I’m an experienced web developer with with a background in front-end and back-end development. I hold a degree from Jacksonville State University with a Bachelor of Science in Geography and a Minor in Computer Science.
-                            As a self-taught web developer, I have worked alongside agile development teams, created web applications for non-profits, and free-lanced for various clients, so I have practical experience when it comes the business and development side of web application development.
-                            However, in my spare time, I provide free-lance development services for various clients.</p>
+                        <p>Michael currently lives in Denver, CO. and works remotely as a Full Stack Developer for <a href="https://coalmarch.com">Coalmarch</a>. There he is responsible for architecting, maintaining, and developing complex web
+                            applications using a variety of languages and frameworks, including advanced Drupal development. He has developed custom Drupal websites/modules for large scale clients like Duke University, created real-time, two-way data
+                            aggregator integration that handles tens of thousands of requests a day, and more.
                         <a href="https://drive.google.com/file/d/0B7kBXdwAhxe1bTNDT2RJTUxlaTQ/view?usp=sharing"><button type="button" class="btn btn-default btn-large flatButton">Resume</button></a>
                     </div>
                 </div>
