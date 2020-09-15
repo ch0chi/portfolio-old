@@ -9,7 +9,7 @@
                     <div class="col-xs-12">
                         <img src="Images/me.png" class="img-responsive center-block">
                         <h1 id="welcomeHeader">Hello, I'm <span class="red">Michael</span>.</h1>
-                        <h3>Web developer | Chapel Hill, NC.</h3>
+                        <h3>Full Stack Developer | Denver, CO.</h3>
                     </div>
                 </div>
             </div>
@@ -37,116 +37,6 @@
 
     <!--End About-->
 
-    <!--Services-->
-    <div id="servicesWrapper" class="container-fluid">
-        <div class="container" id="services">
-            <div id="header" class="col-xs-12">
-                <h1>Services</h1>
-                <h2>Hand crafted websites at affordable prices.</h2>
-            </div>
-            <div class="col-xs-12 cardLg quote" id="quoteDetails">
-                <i id="closeQuote" class="fa fa-2x fa-times-circle"></i>
-                <div class="col-xs-12" id="quoteDetailsInnerWrapper">
-
-
-                    <form class="form" method="post" action="" role="form" autocomplete="off">
-                        <div class="form-group">
-                            <div class="col-xs-6">
-
-                                <label class="labels" for="firstName">First Name</label>
-
-                                <input tabindex="0" type="text" class="quoteForm" id="firstName" name="firstName" required>
-
-
-                            </div>
-                            <div class="col-xs-6">
-                                <label class="labels" for="lastName">Last Name</label>
-                                <input type="text" class="quoteForm" id="lastName" name="lastName"  required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-6">
-                                <label class="labels" for="email">Email</label>
-                                <input type="text" class="quoteForm" id="email" name="email" required>
-                            </div>
-                            <div class="col-xs-6">
-                                <label class="labels" for="phone">Phone</label>
-                                <input type="tel" class="quoteForm" id="phone" name="phone" required>
-                            </div>
-
-
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-12">
-                                <label class="labels" for="description">Project Description</label>
-                                <input type="text" class="quoteForm" id="description" name="description" required>
-                            </div>
-
-                        </div>
-                        <div class="form-group">
-                            <div class="col-xs-12">
-                                <button type="submit" class="btn btn-primary flatButton" id="submitQuote">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-
-
-            </div>
-            <div class="col-xs-12" id="getQuote">
-                <div id="getQuoteInner" class="col-xs-12">
-                    <div class="col-sm-4 serviceDetails">
-
-                        <div class="row">
-                            <div class="serviceHeaders">
-                                <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-12">
-                                <h1>Mobile First</h1>
-                                <hr>
-                                <p>Whether you're viewing from your phone, tablet, laptop, or desktop your website will be sure to fit. </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-4 serviceDetails">
-                        <div class="row">
-                            <div class="serviceHeaders">
-                                <i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-12">
-                                <h1>Intuitive</h1>
-                                <hr>
-                                <p>Website should be simple and so should yours. That's why I always aim to create easy to use websites that are intuitive and functional.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 serviceDetails">
-                        <div class="row">
-                            <div class="serviceHeaders">
-                                <i class="fa fa-user fa-3x" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-12">
-                                <h1>Unique</h1>
-                                <hr>
-                                <p>Whether you're looking for a complex web application, or a simple site, I will make sure to fine-tune every aspect to fit your goals. </p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-xs-12 buttonWrapper">
-                    <a href="#services"><button type="button" id="checkQuote" class="btn btn-default btn-large center-block flatButton">Get Quote</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--End Services-->
-
-
     <!--Projects-->
     <div class="container" id="projects">
         <div id="projectsInner" class="col-xs-12">
@@ -162,7 +52,7 @@
                         <p>The new Evntit.com that is built with the powerful laravel framework- this project aims to be scalable and secure. Source is available upon request.
                         </p>
 
-                        <a href="http://evntit-laravel.evntit.com"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
+                        <a href="https://evntit.michaelq.dev"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
 
                     </div>
                 </div>

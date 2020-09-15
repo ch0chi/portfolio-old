@@ -39,7 +39,8 @@ class PostController extends Controller
     //will show a single blog post
     public function show($postKey){
         $count = 0;
-        $blogPost = Blog::fetchPost($postKey)->get();
+        //$blogPost = Blog::fetchPost($postKey)->get();
+        $blogPost = (new Blog())->fetchPost($postKey)->get();
         foreach($blogPost as $post){
             $count++;
         }
@@ -118,8 +119,32 @@ class PostController extends Controller
         return redirect('/blog/'.$id);
     }
 
+    /**
+     * For session flash params (https://stackoverflow.com/a/25657068/3543426)
+     *
+     * @param \Illuminate\Http\Request $request
+     * @param $id
+     *
+     * @return \Illuminate\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function destroy(Request $request, $id){
-
+        $blog = \DB::table('blogs')->where('blog_key','=',$id)->first();
+        if($blog){
+            $userPost = \DB::table('user_posts')->where('user_id',$blog->author_id)
+                ->where('post_id',$blog->id)->first();
+            if($userPost){
+                //Found a match, continue with deletion
+                \DB::table('blogs')->where('blog_key',$id)->delete();
+                \DB::table('user_posts')->where('user_id',$blog->author_id)
+                    ->where('post_id',$blog->id)->delete();
+                \Session::flash('alert-success', 'Post Deleted!');
+                return redirect('/blog');
+            }
+            \Session::flash('alert-danger', "Error deleting post! Blog was found, but could not find user relation.");
+            return redirect('/blog');
+        }
+        \Session::flash('alert-danger', "Error deleting post! Blog not found!");
+        return redirect('/blog');
     }
 
     public function edit($postKey){
