@@ -7,6 +7,13 @@
         </div>
 
         <div id="all-posts-content" class="container">
+            <div class="flash-message">
+                @foreach (['danger', 'warning', 'success', 'info'] as $msg)
+                    @if(\Session::has('alert-' . $msg))
+                        <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }}</p>
+                    @endif
+                @endforeach
+            </div>
             @if($posts->isEmpty())
                 <div id="no-posts-error" class="row">
                     <h1>Looks like there aren't any blog posts yet!</h1>
@@ -28,10 +35,10 @@
                             @if(\Auth::check())
                                 <div class="post-action-toolbar" style="position:absolute; display:flex; z-index:1">
                                     <a href="{{url('/blog/')}}/{{$post->blog_key}}/edit"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></a>
-                                    <form action="{{url('/blog')}}/{{$post->blog_key}}" class="delete-button" method="POST">
+                                    <form action="{{route('blog.destroy',['blog'=>$post->blog_key])}}" class="delete-button" method="POST">
                                         {{csrf_field()}}
                                         {{method_field('DELETE')}}
-                                        <button type="submit    "><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i><button>
+                                        <button type="submit" onclick="return confirm('Are You Sure?')"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></button>
                                     </form>
                                 </div>
                             @endif
@@ -48,10 +55,10 @@
                             @if(\Auth::check())
                                 <div class="post-action-toolbar" style="display:flex; z-index:1">
                                     <a href="{{url('/blog/')}}/{{$post->blog_key}}/edit"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></a>
-                                    <form action="{{url('/blog')}}/{{$post->blog_key}}" class="delete-button" method="POST">
+                                    <form action="{{route('blog.destroy',['blog'=>$post->blog_key])}}" class="delete-button" method="POST">
                                         {{csrf_field()}}
                                         {{method_field('DELETE')}}
-                                        <i class="fa fa-trash-o fa-2x" aria-hidden="true"></i>
+                                        <button type="submit" onclick="return confirm('Are You Sure?')"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></button>
                                     </form>
                                 </div>
                             @endif
