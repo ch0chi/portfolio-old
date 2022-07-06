@@ -429,6 +429,11 @@ input:focus{
 #evntitLaravelImage{
     background-image:url(../Images/laravel-evntit.jpg);
 }
+#nugsDownloader{
+    background-image:url(../Images/nugs.jpg);
+    background-position:center;
+    background-size: contain;
+}
 #evntitImage{
     background-image:url(../Images/evntit.jpg);
 }

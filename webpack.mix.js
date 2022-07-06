@@ -11,7 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 //mix.webpackConfig({ module: { rules: [ { test: /\.scss$/, loader: 'import-glob-loader' }, ] } });
-mix.js('resources/assets/js/app.js', 'public/js/new').sass('resources/assets/sass/app.scss', 'public/css/new');
+mix.webpackConfig({ module: { rules: [ { test: /\.scss$/, loader: 'import-glob-loader' }, ] } });
+mix.js('resources/assets/js/app.js', 'public/js/new')
+mix.sass('resources/assets/sass/app.scss', 'public/css/new');
+//mix.js('resources/assets/js/app.js', 'public/js/new').sass('resources/assets/sass/app.scss', 'public/css/new');
 // mix.js('src/app.js', 'dist/').sass('src/app.scss', 'dist/');
 
 // Full API

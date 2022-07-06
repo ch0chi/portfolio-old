@@ -9,7 +9,7 @@
                     <div class="col-xs-12">
                         <img src="{{asset('public/Images/mquattrochi.jpg')}}" class="img-responsive center-block">
                         <h1 id="welcomeHeader">Hello, I'm <span class="red">Michael</span>.</h1>
-                        <h3>Full Stack Developer | Denver, CO.</h3>
+                        <h3>Senior Full Stack Developer | Denver, CO.</h3>
                     </div>
                 </div>
             </div>
@@ -25,10 +25,10 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>About</h2>
-                        <p>Michael currently lives in Denver, CO. and works remotely as a Full Stack Developer for <a href="https://coalmarch.com">Coalmarch</a>. There he is responsible for architecting, maintaining, and developing complex web
-                            applications using a variety of languages and frameworks, including advanced Drupal development. He has developed custom Drupal websites/modules for large scale clients like Duke University, created real-time, two-way data
-                            aggregator integration that handles tens of thousands of requests a day, and more.
-                        <a href="https://drive.google.com/file/d/0B7kBXdwAhxe1bTNDT2RJTUxlaTQ/view?usp=sharing"><button type="button" class="btn btn-default btn-large flatButton">Resume</button></a>
+                        <p>I currently live in Denver, CO. and work remotely as a Full Stack Developer for <a href="https://coalmarch.com">Coalmarch</a>.<br>
+                            I'm passionate about all things outdoors, and can generally be found mountain biking, rock climbing, mountaineering, snowboarding, hiking, and camping all around the vast Colorado wilderness.<br>
+                            I also help develop <a href="https://highpointwx.com">HighpointWx</a>, an advanced weather forecasting app for the Colorado high country -- mountaineering, skiing, rock climbing, and more.
+                            <a href="https://drive.google.com/file/d/0B7kBXdwAhxe1bTNDT2RJTUxlaTQ/view?usp=sharing"><button type="button" class="btn btn-default btn-large flatButton">Resume</button></a></p>
                     </div>
                 </div>
             </div>
@@ -42,6 +42,20 @@
         <div id="projectsInner" class="col-xs-12">
             <div class="row">
                 <h1>Projects</h1>
+
+                <div class="col-md-6 projectWrapper">
+                    <div class="col-xs-12 projectDescription cardSm">
+                        <h2>Nugs.net and Live Phish Downloader</h2>
+                        <div class=" projectImage card" id="nugsDownloader">
+
+                        </div>
+                        <p>I reverse engineered the nugs.net and live phish plus stream api to allow a user to download any album they want.
+                        </p>
+
+                        <a href="https://github.com/ch0chi/nugs-downloader"><button type="button" class="btn btn-default btn-large flatButton">Repo</button></a>
+
+                    </div>
+                </div>
 
                 <div class="col-md-6 projectWrapper">
                     <div class="col-xs-12 projectDescription cardSm">
