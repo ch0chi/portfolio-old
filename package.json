@@ -1,31 +1,33 @@
 {
   "private": true,
   "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
   },
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
-    "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-vue-2": "^0.2.0",
-    "laravel-elixir-webpacko-official": "^1.0.2",
-    "lodash": "^4.16.2",
-    "vue": "^2.0.1",
-    "vue-resource": "^1.0.3",
-    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "bootstrap-sass": "^3",
+    "jquery": "^3",
+    "lodash": "^4",
+    "cross-env": "^7",
+    "resolve-url-loader": "^5",
+    "vue": "^2",
+    "vue-resource": "^1",
+    "axios": "^0",
     "del": "^2.1.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^2.1.1",
-    "gulp-sass-glob": "^0.0.2",
-    "gulp-sass-lint": "^1.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0"
+    "laravel-mix": "^6",
+    "breakpoint-sass": "^2.7.1",
+    "vue-template-compiler": "^2",
+    "sass": "^1",
+    "sass-loader": "^13"
+
   },
   "dependencies": {
-    "breakpoint-sass": "^2.7.1",
-    "import-glob-loader": "^1.1.0"
+    "import-glob-loader": "^1"
   }
 }
