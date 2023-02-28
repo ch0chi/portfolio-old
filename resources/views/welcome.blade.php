@@ -42,21 +42,6 @@
         <div id="projectsInner" class="col-xs-12">
             <div class="row">
                 <h1>Projects</h1>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Nugs.net and Live Phish Downloader</h2>
-                        <div class=" projectImage card" id="nugsDownloader">
-
-                        </div>
-                        <p>I reverse engineered the nugs.net and live phish plus stream api to allow a user to download any album they want.
-                        </p>
-
-                        <a href="https://github.com/ch0chi/nugs-downloader"><button type="button" class="btn btn-default btn-large flatButton">Repo</button></a>
-
-                    </div>
-                </div>
-
                 <div class="col-md-6 projectWrapper">
                     <div class="col-xs-12 projectDescription cardSm">
                         <h2>Evntit built w/ Laravel</h2>
