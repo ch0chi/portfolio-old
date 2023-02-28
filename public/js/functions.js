@@ -155,7 +155,7 @@ Image.prototype.getSrc = function(source){
 //Summernote initialization
 $('#post_body').summernote();
 
-post = new Post();
+//post = new Post();
 image = new Image();
 form = new Form();
 
@@ -165,7 +165,7 @@ function initialize(){
     form.alterForm();
     //form.checkTarget();
     image.displayImage();
-    post.setCss();
+    //post.setCss();
 }
 initialize();
 
