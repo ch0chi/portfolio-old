@@ -7,7 +7,7 @@
             <div id="welcomeInner" class="col-md-10 col-md-offset-1 col-xs-12 cardLg">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img src="{{asset('public/Images/mquattrochi.jpg')}}" class="img-responsive center-block">
+                        <img src="{{asset('Images/mquattrochi.jpg')}}" class="img-responsive center-block">
                         <h1 id="welcomeHeader">Hello, I'm <span class="red">Michael</span>.</h1>
                         <h3>Senior Full Stack Developer | Denver, CO.</h3>
                     </div>
