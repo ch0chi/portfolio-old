@@ -65,10 +65,7 @@
                                 <a href="{{url('/')}}#projects">Projects</a>
                             </li>
                             <li>
-                                <a href="{{url('/')}}#contact">Contact</a>
-                            </li>
-                            <li>
-                                <a href="{{url('blog')}}">Blog</a>
+                                <a href="{{url('/')}}#footer">Contact</a>
                             </li>
                         @else
                             <li class="dropdown">
