@@ -15,17 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('blog','PostController');
-
-
-
-Route::get('/add_post',function(){
-    return view('/add_post');
-})->middleware('auth');
-Route::get('/dashboard',function(){
-    return view('/blog/dashboard');
-})->middleware('auth');
+//Route::resource('blog','PostController');
+//
+//
+//
+//Route::get('/add_post',function(){
+//    return view('/add_post');
+//})->middleware('auth');
+//Route::get('/dashboard',function(){
+//    return view('/blog/dashboard');
+//})->middleware('auth');
