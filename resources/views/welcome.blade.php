@@ -25,10 +25,10 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>About</h2>
-                        <p>I currently live in Denver, CO. and work remotely as a Full Stack Developer for <a href="https://coalmarch.com">Coalmarch</a>.<br>
+                        <p>I currently live in Denver, CO. and work remotely as a Senior Full Stack Developer for <a href="https://coalmarch.com">Coalmarch</a>.<br>
                             I'm passionate about all things outdoors, and can generally be found mountain biking, rock climbing, mountaineering, snowboarding, hiking, and camping all around the vast Colorado wilderness.<br>
                             I also help develop <a href="https://highpointwx.com">HighpointWx</a>, an advanced weather forecasting app for the Colorado high country -- mountaineering, skiing, rock climbing, and more.
-                            <a href="https://drive.google.com/file/d/0B7kBXdwAhxe1bTNDT2RJTUxlaTQ/view?usp=sharing"><button type="button" class="btn btn-default btn-large flatButton">Resume</button></a></p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -38,140 +38,21 @@
     <!--End About-->
 
     <!--Projects-->
+<div class="container-fluid">
     <div class="container" id="projects">
-        <div id="projectsInner" class="col-xs-12">
+        <div id="projectsInner" class="col-md-8 col-md-offset-2 col-xs-12">
             <div class="row">
+                <div class=col-xs-12">
                 <h1>Projects</h1>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Nugs.net and Live Phish Downloader</h2>
-                        <div class=" projectImage card" id="nugsDownloader">
-
-                        </div>
-                        <p>I reverse engineered the nugs.net and live phish plus stream api to allow a user to download any album they want.
-                        </p>
-
-                        <a href="https://github.com/ch0chi/nugs-downloader"><button type="button" class="btn btn-default btn-large flatButton">Repo</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Evntit built w/ Laravel</h2>
-                        <div class=" projectImage card" id="evntitLaravelImage">
-
-                        </div>
-                        <p>The new Evntit.com that is built with the powerful laravel framework- this project aims to be scalable and secure. Source is available upon request.
-                        </p>
-
-                        <a href="https://evntit.michaelq.dev"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Evntit.com</h2>
-                        <div class=" projectImage card" id="evntitImage">
-
-                        </div>
-                        <p>Developed in PHP, Evntit.com is a personal project that utilizes a RESTful API to help you find new friends, hobbies, and things to do within your city.
-                        </p>
-
-                        <a href="http://evntit.com"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
-                        <a href="https://github.com/ch0chi/evntit-old"><button type="button" class="btn btn-default btn-large flatButton">Source</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Inline.js</h2>
-                        <div class=" projectImage card" id="inlineImage">
-
-                        </div>
-                        <p>Inline.js is a simple yet powerful jquery plugin that makes editing content on the fly a breeze. The perfect solution for simple CMS editing!</p>
-
-                        <a href="http://ch0chi.github.io/Inline.js/"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
-                        <a href="http://github.com/Ch0chi/Inline.js/"><button type="button" class="btn btn-default btn-large flatButton">Source</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Choccoloccocreekalliance.org</h2>
-                        <div class=" projectImage" id="choccImage">
-
-                        </div>
-                        <p>A website built for the Choccolocco Creek Alliance- a nonprofit organization that focuses on the maintenance and protection of the
-                            choccolocco creek watershed.</p>
-
-                        <a href="http://choccoloccocreekalliance.org"><button type="button" class="btn btn-default btn-large flatButton">Demo</button></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6 projectWrapper">
-
-
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Breakout Game</h2>
-                        <div class=" projectImage" id="breakoutImage"></div>
-                        <p>This project focuses on recreating the classic breakout game into an object oriented design using javascript and HTML5</p>
-
-                        <a href="https://jsfiddle.net/d6mce9yq/14/"><button type="button" class="btn btn-default btn-large  flatButton">Demo</button></a>
-                        <a href="#"><button type="button" class="btn btn-default btn-large  flatButton">Source</button></a>
-
-
-
-                    </div>
-
-                </div>
-                <div class="col-md-6 projectWrapper">
-                    <div class="col-xs-12 projectDescription cardSm">
-                        <h2>Jquery Material Form Plugin</h2>
-                        <div class=" projectImage" id="jqueryPluginImage">
-
-                        </div>
-                        <p>A simple and responsive jquery form plugin that easily adds a material themed form to any page.</p>
-
-                        <a href="http://ch0chi.github.io/Jquery-Material-Form-Plugin"><button type="button" class="btn btn-default btn-large  flatButton">Demo</button></a>
-                        <a href="https://github.com/ch0chi/Jquery-Material-Form-Plugin.git"><button type="button" class="btn btn-default btn-large flatButton">Source</button></a>
-                    </div>
-
+                    <p>Coming Soon. In the meantime, you can see some of my work on my <a href="http://github.com/ch0chi">Github</a></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 
     <!--End Projects-->
-
-    <!--Contact-->
-    <div class="container" id="contact">
-        <div class="col-xs-12">
-            <div class="row">
-                <h1>Contact</h1>
-                <div class="col-md-6 contactInfo">
-                    <div class="col-xs-12 cardSm">
-                        <h2>Phone</h2>
-                        <hr>
-                        <a href="tel:+12565412181"><p>256-541-2181</p></a>
-                    </div>
-                </div>
-                <div class="col-md-6 contactInfo ">
-                    <div class="col-xs-12 cardSm">
-                        <h2>Email</h2>
-                        <hr>
-                        <a href="mailto:mquattrochi@gmail.com"><p>mquattrochi@gmail.com</p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Contact-->
 
     <!--Footer-->
     <div class="container-fluid" id="footer">
@@ -195,10 +76,10 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <h3>Contact</h3>
-                    <a href="tel:+12565412181">
+                    <a href="tel:+13036569494">
                         <i class="fa fa-phone fa-2x"></i><h4></h4>
                     </a>
-                    <a href="mailto:mquattrochi@gmail.com"><i class="fa fa-envelope fa-2x"></i><h4></h4></a>
+                    <a href="mailto:mquattrochi@pm.me"><i class="fa fa-envelope fa-2x"></i><h4></h4></a>
                 </div>
             </div>
         </div>
