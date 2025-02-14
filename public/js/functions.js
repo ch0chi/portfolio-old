@@ -148,14 +148,27 @@ Image.prototype.getSrc = function(source){
     img.src=source;
 };
 
-
+const obfuscatePhone = () => {
+    let countryCode = "+1";
+    let areaCode = "303";
+    let firstPart = "656";
+    let lastPart = "9494";
+    let combinedPhone = countryCode + areaCode + firstPart + lastPart;
+    let phone = $("#phone");
+    phone.hover(function() {
+       $(this).css('cursor', 'pointer');
+    });
+    phone.on('click', function() {
+        $(this).attr("href", "tel:" + combinedPhone).text(combinedPhone);
+    });
+}
 
 
 
 //Summernote initialization
 $('#post_body').summernote();
 
-post = new Post();
+//post = new Post();
 image = new Image();
 form = new Form();
 
@@ -165,7 +178,8 @@ function initialize(){
     form.alterForm();
     //form.checkTarget();
     image.displayImage();
-    post.setCss();
+    //post.setCss();
+    obfuscatePhone();
 }
 initialize();
 
