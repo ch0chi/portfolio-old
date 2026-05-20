@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>About</h2>
-                        <p>I currently live in Denver, CO. and work remotely as a Senior Full Stack Developer for <a href="https://bythepixel.com/">By The Pixel</a>.<br>
+                        <p>I currently live in Denver, CO. and work as a Senior Full Stack Developer.<br>
                             I'm passionate about all things outdoors, and can generally be found mountain biking, rock climbing, mountaineering, snowboarding, hiking, and camping all around the vast Colorado wilderness.<br>
                         </p>
                     </div>
