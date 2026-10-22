@@ -39,14 +39,14 @@ return [
 
         'main' => [
             'salt' => 'Hf9X&Nnmzjz6ilz1',
-            'length' => '5',
+            'length' => 5,
             'alphabet' => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890',
         ],
 
         'alternative' => [
-            'salt' => 'your-salt-string',
-            'length' => 'your-length-integer',
-            'alphabet' => 'your-alphabet-string',
+            'salt' => '',
+            'length' => 0,
+            // 'alphabet' => 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
         ],
 
     ],

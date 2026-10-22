@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +22,9 @@ Route::get('/', function () {
 
 //Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', [HomeController::class, 'index']);
 
-//Route::resource('blog','PostController');
+//Route::resource('blog', PostController::class);
 //
 //
 //

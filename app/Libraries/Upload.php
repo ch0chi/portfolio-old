@@ -8,7 +8,7 @@
  */
 
 namespace App\Libraries;
-use Image;
+use Intervention\Image\Laravel\Facades\Image;
 class Upload
 {
     /**
@@ -23,17 +23,13 @@ class Upload
         $imageName = $this->randomString(32).'.'.$extension;
         //$this->makeDirectory($key);
         $path = public_path('uploads/'.$imageName);
-        $img = Image::make($image);
+        $img = Image::decode($image);
 
-        $img->resize(1200, null, function ($constraint) {
-            $constraint->aspectRatio();
-        });
-        $img->encode('jpg',10)->save(public_path().'/'.'uploads/'.'banner_'.$imageName);
+        $img->scale(width: 1200);
+        $img->save(public_path().'/'.'uploads/'.'banner_'.$imageName, quality: 90);
 
-        $img->resize(375, null, function ($constraint){
-            $constraint->aspectRatio();
-        });
-        $img->encode('jpg',10)->save(public_path().'/'.'uploads/'.$imageName);
+        $img->scale(width: 375);
+        $img->save(public_path().'/'.'uploads/'.$imageName, quality: 90);
 
         return $imageName;
     }

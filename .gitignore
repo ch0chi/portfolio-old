@@ -1,8 +1,14 @@
 /node_modules
 /public/storage
+/public/hot
+/storage/*.key
 /vendor
 /.idea
+/.phpunit.cache
+.phpunit.result.cache
 Homestead.json
 Homestead.yaml
 .env
+.env.backup
 .git
+.DS_Store

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
 use Carbon\Carbon;
 use App\Blog;
 use App\UserPost as UserPost;
